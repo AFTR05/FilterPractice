@@ -1,0 +1,36 @@
+    diferencia entre sendredirect y getRequestDispatcher
+    sendRedirect se usa para redirigirse a otra pagina, el parametro lo lleva a la pagina indicada
+    getrequestDispatcher se usa para reenviar una solicitud a la direccion actual
+
+    Respuestas informativas (100–199),
+    Respuestas satisfactorias (200–299),
+    Redirecciones (300–399),
+    Errores de los clientes (400–499),
+    y errores de los servidores (500–599).
+
+
+
+    16. Investigue que son las sesiones y cuales son sus diferentes con las cookies, liste y
+    describa las diferencias.
+
+    es un conjunto de acciones que realiza el cliente, el cual consiste en una serie de peticiones que el server responde con un codigo de estado, ademas no se cierra apenas
+    pasa este codigo de estado, sino que puede repetirse la peticion y respuesta multiples veces.
+
+    ambos son mecanismos que se utilizan para mantener el estado de una sesión web entre las solicitudes del cliente y el servidor.
+
+    diferencias
+
+    1. Las cookies son datos o informacion que se almacena en el lado del cliente, mientras que las sesiones HTTP se almacenan en el lado del servidor.
+
+    2. Las cookies pueden ser vistas o manipuladas directamente por el usuario, mientras que las sesiones HTTP
+    se almacenan en el servidor y no pueden ser vistas ni manipuladas por el usuario.
+
+    3. Las cookies tienen un tiempo limite o una vida definida, que puede ser configurada por el servidor. Las sesiones HTTP, solo estan mientras el usuario esta navegando es decir
+    que cuando cierra el usuario el navegador la sesion expira o deja de existir en el servidor, es como algo momentaneo
+
+    4. Las cookies se pueden utilizar para compartir información entre diferentes paginas webs o dominios, mientras que las sesiones HTTP
+    están limitadas a un sola pagina web que se navegue.
+
+    5. Con las cookies tenemos la opcion de que sean persistentes(se mantienen después de que el usuario cierra el navegador) o
+    no persistentes(se eliminan cuando el usuario cierra el navegador). Las sesiones HTTP siempre se eliminan cuando el usuario cierra el navegador
+    o expira en el servidor.
